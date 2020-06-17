@@ -1,0 +1,25 @@
+ /* Gradient animations :  friendslist SELECTED + /command selected */
+a.channel-2QD9_O.da-channel.container-2Pjhx-.da-container.selected-aXhQR6.da-selected > div:after, div.selectorSelected-1_M1WV.selector-2IcQBU.da-selectorSelected.da-selector.selectable-3dP3y-.da-selectable {
+    background: linear-gradient(50deg, #c82090, #02d5ec);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 2s ease infinite;
+    -moz-animation: AnimationName 2s ease infinite;
+    animation: AnimationName 2s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}

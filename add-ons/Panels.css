@@ -102,3 +102,35 @@ section.searchResultsWrap-3-pOjs.da-searchResultsWrap {
 	border-radius: 15px;
 	margin-left: 25px;
 }
+
+
+/*  ---------------------- Friends list ----------------------  */
+
+/*   Friends list top bar   */
+section.container-1r6BKw.da-container.themed-ANHk51.da-themed {
+ 	border-radius: 10px;
+ 	background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url(https://i.imgur.com/cy9AgH4.jpg) ;
+ 	background-size: cover ;
+ 	background-position: center ;
+ 	background-attachment: fixed ;
+ 	margin-bottom: 10px;
+}
+
+/*   Friends   */
+div.peopleColumn-29fq28.da-peopleColumn {
+ 	border-radius: 10px;
+ 	background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url(https://i.imgur.com/cy9AgH4.jpg) ;
+ 	background-size: cover ;
+ 	background-position: center ;
+ 	background-attachment: fixed ;
+ 	margin-right: 10px;
+}
+
+/*   Friends playing now   */
+div.nowPlayingColumn-2sl4cE.da-nowPlayingColumn {
+ 	border-radius: 10px;
+ 	background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url(https://i.imgur.com/cy9AgH4.jpg) ;
+ 	background-size: cover ;
+ 	background-position: center ;
+ 	background-attachment: fixed ;
+}

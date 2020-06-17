@@ -1,0 +1,104 @@
+/*   PANELS   */
+
+.app,
+.app-2rEoOp {
+	margin: 25px;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+/* Background */
+.app-1q1i1E{
+	background: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/1148510/4c6bd678919010d9f7cd7fd691eec647ce972634.jpg);
+ 	background-size: cover ;
+ 	background-position: center ;
+ 	background-attachment: fixed ;
+}
+
+.container-3gCOGc,
+#friends,
+.activityFeed-28jde9,
+.gameLibrary-TTDw4Y,
+.applicationStore-1pNvnv {
+	border-radius: 10px ;
+}
+.chat-3bRxxu {
+ 	border-radius: 10px;
+}
+
+.sidebar-2K8pFh.da-sidebar {
+ 	border-radius: 10px;
+ 	background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url(https://i.imgur.com/cy9AgH4.jpg) ;
+ 	background-size: cover ;
+ 	background-position: center ;
+ 	background-attachment: fixed ;
+ 	margin-right: 25px;
+ }
+ /*   Menu bar chat   */
+section.title-3qD0b-.da-title.container-1r6BKw.da-container.themed-ANHk51.da-themed{       
+ 	border-radius: 10px;
+ 	background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url(https://i.imgur.com/cy9AgH4.jpg) ;
+ 	background-size: cover ;
+ 	background-position: center ;
+ 	background-attachment: fixed ;
+ 	margin-bottom: 10px;
+ }
+ /*   Chat   */
+main.chatContent-a9vAAp.da-chatContent {
+ 	border-radius: 10px;
+ 	background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url(https://i.imgur.com/cy9AgH4.jpg) ;
+ 	background-size: cover ;
+ 	background-position: center ;
+ 	background-attachment: fixed ;
+ }
+ /*   Members list   */
+
+		
+ .membersWrap-2h-GB4:before {    			/* Member list TAG */
+    content: 'Member List';
+    color: #fff;
+    line-height: 20px;
+    font-family: inherit;
+    font-size: 16px;
+    width: 105px;
+    height: 20px;
+    background-color: var(--main-color);
+    position: absolute;
+    text-align: center;
+    white-space: pre-wrap;
+    left: -70px;
+    top: 60px;
+    border-radius: 5px;
+    transform: rotate(270deg);
+}
+
+.membersWrap-2h-GB4:hover:before {
+    background-color: var(--hover-color);
+    margin-left:5px;
+}
+
+.membersWrap-2h-GB4 {
+    left: var(--members-width);
+    margin-left: calc(var(--members-width) * -1);
+    transition: .3s all ease-out;
+}
+
+.membersWrap-2h-GB4:hover{
+    left: 0;
+ 	border-radius: 10px;
+ 	background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url(https://i.imgur.com/cy9AgH4.jpg) ;
+ 	background-size: cover ;
+ 	background-position: center ;
+ 	background-attachment: fixed ;
+ 	margin-left: 25px;
+}
+
+ div.toolbar-1t6TWx.da-toolbar > div:nth-child(3) {   /* Hide members button */
+	display: none;
+ }
+
+/*   Search results   */
+section.searchResultsWrap-3-pOjs.da-searchResultsWrap {
+	border-radius: 15px;
+	margin-left: 25px;
+}

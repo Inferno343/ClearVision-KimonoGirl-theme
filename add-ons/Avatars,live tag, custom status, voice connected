@@ -1,0 +1,29 @@
+/*  Avatars & server icon   SQUARED round border */
+ div > svg > foreignObject, img.avatar-VxgULZ, img.da-avatar, div.da-avatarSmall, .da-listAvatar {        
+	 mask: url();
+    -webkit-border-radius: 20%;
+    border-radius: 20%;
+ }
+ 
+/* user live tag */
+ div.da-live {    
+    -webkit-border-radius: 5%;
+	 border-radius: 5%;
+ }   
+ 
+/* Custom status */ 
+ span.customStatusText-3YJeRZ.da-customStatusText,
+ div.activityText-yGKsKm.da-activityText {    
+	 color:white;
+ }
+
+/* Voice connected */
+div.flex-1xMQg5.flex-1O1GKY.da-flex.da-flex.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6 {
+	 -webkit-border-radius: 5%;
+	 border-radius: 5%;
+ }
+ 
+div.button-F9qN4n.da-button {
+	 -webkit-border-radius: 15%;
+	 border-radius: 15%;
+}
